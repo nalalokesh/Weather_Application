@@ -1,21 +1,22 @@
 #card{
     /* background-color: #fafafa; */
     /* background-color: #7b7b7b; */
-    background-image: url("./images/bg.png");
+    background-image: url("./images/BG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
+    backdrop-filter: blur(10px);
 }
 #in{
     background-color: rgba(26, 24, 24, 0.511);
     box-shadow: 25px 25px 50px -12px #5da5bb8f;
     border-radius: 20px;
-    
+    backdrop-filter: blur(10px);
     width: 500px;
 }
 
 .upper{
-    color: #ffffffd8;
+    color: #101010d8;
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 20px;
