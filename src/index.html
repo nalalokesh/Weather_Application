@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="./images/logo1.png">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        span{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: white;">
+    
+    <div id="card" class="flex flex-col  items-center justify-center h-screen">
+        <h1 class="upper">Weather Application</h1>
+        <div id="in" height="200px" class= "flex flex-col items-center justify-center  p-8 gap-3 border-[1px] border-black">
+            <div id="top">
+                
+                <img class="cloud" src="./images/logo2.png" alt="">
+                <input id="input" class="border-[1px] border-black p-2 rounded-lg " type="text" placeholder="Enter the city name ">
+                <input id="btn" class="button_1 border-[1px] border-cyan-700 p-2 rounded-lg cursor-pointer text-white" type="submit" value="Search">
+                <input id="refresh" type="button" class="button_1 border-[1px] border-cyan-700 p-2 rounded-lg cursor-pointer text-white" value="Refresh">
+            </div>
+            <div id="btm" >
+                <div class="details">
+                    <p class="flex"><span id="city">   </span></p><br>
+                
+                    <p class="flex"><span id="temp"></span></p><br>
+                
+                    <p class="flex"><span id="hum"></span></p><br>
+                
+                    <p class="flex"><span id="weat"></span></p>
+
+                    <p style="padding-top: 25px;"> <span id="wind"></span></p>
+                </div>
+                <div class="image" >
+                    <img id="weather-image" src="" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js">
+        
+
+    </script>
+</body>
+</html>

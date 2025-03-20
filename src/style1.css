@@ -1,0 +1,61 @@
+#card{
+    /* background-color: #fafafa; */
+    /* background-color: #7b7b7b; */
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+#in{
+    background-color: rgba(26, 24, 24, 0.511);
+    box-shadow: 25px 25px 50px -12px #5da5bb8f;
+    border-radius: 20px;
+    
+    width: 500px;
+}
+
+.upper{
+    color: #ffffffd8;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    background: transparent;
+    text-shadow: 2px 2px 4px #000000;
+}
+.cloud{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 0;
+    padding: 30px;
+
+}
+
+#btm{
+    display: flex;
+    gap: 50px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.button_1{
+    background-color: black;
+    color: white;
+    box-shadow: 0 25px 50px -12px rgb(234, 225, 225) ;
+}
+.details p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+#weather-image{
+    background: rgba(240, 242, 243, 0.342);
+    border-radius: 10px;
+    padding: 5px;
+    visibility:hidden;
+}
